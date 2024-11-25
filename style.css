@@ -1,3 +1,41 @@
 /* *{
     border: 1px solid red !important;
 } */
+.row insta-feed {
+    display: flex;
+    justify-content: center;
+    margin: -3px;
+}
+.nav-tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.insta-post>div>img {
+    width: 500px;
+}
+
+.post-head {
+    width: 500px;
+}
